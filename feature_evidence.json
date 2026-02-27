@@ -1,0 +1,45 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-expand-the-products-data-in-frontend-src-data-products-ts-to-include-multiple-individual-products-under-each-category-at-least-3-products-under-tufted-border-mirrors-at-least-3-under-tufted-rugs-and-at-least-3-under-tufted-pillow-cases-and-at-least-2-under-tufted-mirror-rug-each-product-should-have-a-unique-name-description-price-and-reference-a-distinct-product-image-update-the-productspage-and-any-category-filtering-display-logic-to-show-all-individual-products-per-category",
+      "featureTitle": "Expand the products data in frontend/src/data/products.ts to include multiple individual products under each category: at least 3 products under Tufted Border Mirrors, at least 3 under Tufted Rugs, and at least 3 under Tufted Pillow Cases (and at least 2 under Tufted Mirror Rug). Each product should have a unique name, description, price, and reference a distinct product image. Update the ProductsPage and any category filtering/display logic to show all individual products per category.",
+      "files": [
+        "frontend/src/data/products.ts",
+        "frontend/src/pages/ProductDetail.tsx",
+        "frontend/src/pages/ProductsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-full-width-editorial-category-showcase-section-on-the-homepage-home-tsx-placed-immediately-below-the-our-collection-product-grid-the-section-should-display-three-tall-side-by-side-panels-in-a-3-column-layout-each-panel-filling-with-a-large-lifestyle-product-background-image-a-bold-editorial-headline-overlaid-on-the-image-e-g-define-your-space-for-mirrors-ground-your-room-for-rugs-rest-your-head-for-pillows-and-a-minimal-outlined-cta-button-centered-in-the-panel-linking-to-the-relevant-category-style-the-layout-consistent-with-the-bauhaus-design-system-uppercase-bold-typography-clean-borders-and-the-brand-color-palette-this-is-directly-inspired-by-the-uploaded-reference-image-showing-three-tall-image-panels-with-headlines-and-category-buttons",
+      "featureTitle": "Add a full-width editorial category showcase section on the homepage (Home.tsx), placed immediately below the 'OUR COLLECTION' product grid. The section should display three tall side-by-side panels in a 3-column layout, each panel filling with a large lifestyle/product background image, a bold editorial headline overlaid on the image (e.g., 'DEFINE YOUR SPACE' for Mirrors, 'GROUND YOUR ROOM' for Rugs, 'REST YOUR HEAD' for Pillows), and a minimal outlined CTA button centered in the panel linking to the relevant category. Style the layout consistent with the Bauhaus design system: uppercase bold typography, clean borders, and the brand color palette. This is directly inspired by the uploaded reference image showing three tall image panels with headlines and category buttons.",
+      "files": [
+        "frontend/src/components/CategoryShowcaseSection.tsx",
+        "frontend/src/pages/Home.tsx",
+        "frontend/src/pages/ProductsPage.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

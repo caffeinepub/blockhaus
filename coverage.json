@@ -1,0 +1,76 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-24T13:32:06.833Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-11",
+        "summary": "Expand the products data in frontend/src/data/products.ts to include multiple individual products under each category: at least 3 products under Tufted Border Mirrors, at least 3 under Tufted Rugs, and at least 3 under Tufted Pillow Cases (and at least 2 under Tufted Mirror Rug). Each product should have a unique name, description, price, and reference a distinct product image. Update the ProductsPage and any category filtering/display logic to show all individual products per category.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/data/products.ts",
+          "frontend/src/pages/ProductsPage.tsx",
+          "frontend/src/pages/ProductDetail.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/data/products.ts",
+          "frontend/src/pages/ProductsPage.tsx",
+          "frontend/src/pages/ProductDetail.tsx"
+        ]
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Add a full-width editorial category showcase section on the homepage (Home.tsx), placed immediately below the 'OUR COLLECTION' product grid. The section should display three tall side-by-side panels in a 3-column layout, each panel filling with a large lifestyle/product background image, a bold editorial headline overlaid on the image (e.g., 'DEFINE YOUR SPACE' for Mirrors, 'GROUND YOUR ROOM' for Rugs, 'REST YOUR HEAD' for Pillows), and a minimal outlined CTA button centered in the panel linking to the relevant category. Style the layout consistent with the Bauhaus design system: uppercase bold typography, clean borders, and the brand color palette. This is directly inspired by the uploaded reference image showing three tall image panels with headlines and category buttons.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/CategoryShowcaseSection.tsx",
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/pages/ProductsPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/CategoryShowcaseSection.tsx",
+          "frontend/src/pages/Home.tsx",
+          "frontend/src/pages/ProductsPage.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/category-panel-mirrors.dim_600x900.png",
+    "frontend/public/assets/generated/category-panel-pillows.dim_600x900.png",
+    "frontend/public/assets/generated/category-panel-rugs.dim_600x900.png",
+    "frontend/public/assets/generated/mirror-product-2.dim_800x1000.png",
+    "frontend/public/assets/generated/mirror-product-3.dim_800x1000.png",
+    "frontend/public/assets/generated/mirror-product-4.dim_800x1000.png",
+    "frontend/public/assets/generated/pillow-product-2.dim_800x1000.png",
+    "frontend/public/assets/generated/pillow-product-3.dim_800x1000.png",
+    "frontend/public/assets/generated/pillow-product-4.dim_800x1000.png",
+    "frontend/public/assets/generated/rug-product-2.dim_800x1000.png",
+    "frontend/public/assets/generated/rug-product-3.dim_800x1000.png",
+    "frontend/public/assets/generated/rug-product-4.dim_800x1000.png",
+    "frontend/src/App.tsx",
+    "frontend/src/components/CategoryShowcaseSection.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/ProductGrid.tsx",
+    "frontend/src/data/products.ts",
+    "frontend/src/pages/Home.tsx",
+    "frontend/src/pages/ProductDetail.tsx",
+    "frontend/src/pages/ProductsPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

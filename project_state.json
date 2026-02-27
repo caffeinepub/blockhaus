@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Luxury home brand website for 'Blockhaus' — Bauhaus-inspired design with red, blue, orange, and white color palette. Products include tufted rugs, tufted pillow cases, tufted mirror rug, and best-selling tufted border mirrors. Layout inspired by yayaandco.com.",
+  "architectural_notes": [
+    "Brand name: Blockhaus — Bauhaus-inspired luxury home brand",
+    "Color palette: red, blue, orange, white",
+    "Products: tufted rugs, tufted pillow cases, tufted mirror rug, tufted border mirrors (best seller)",
+    "Layout reference: yayaandco.com (full-width sections, editorial feel, clean navigation)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Lifestyle photo of a tufted geometric border mirror hanging on a white wall in a modern interior (mirror-product-2.dim_800x1000.png)\n- Lifestyle photo of a circular tufted mirror with colorful Bauhaus pattern in a styled room (mirror-product-3.dim_800x1000.png)\n- Studio shot of a tufted abstract-pattern border mirror with bold red and blue tufting (mirror-product-4.dim_800x1000.png)\n- Flat-lay of a large tufted rug with bold geometric chevron pattern in red, white, and black (rug-product-2.dim_800x1000.png)\n- Styled room shot of a tufted rug with abstract Bauhaus-inspired shapes in orange and blue (rug-product-3.dim_800x1000.png)\n- Studio flat-lay of a tufted rug with concentric rectangle pattern in deep navy and cream (rug-product-4.dim_800x1000.png)\n- Styled couch with a tufted pillow case featuring bold abstract swirl pattern in red and orange (pillow-product-2.dim_800x1000.png)\n- Studio shot of a tufted pillow case with geometric grid pattern in blue and white (pillow-product-3.dim_800x1000.png)\n- Lifestyle shot of a tufted pillow case with color-block Bauhaus stripes in orange, red, and black on a linen sofa (pillow-product-4.dim_800x1000.png)\n- Tall editorial lifestyle image of a styled room featuring a tufted mirror as the focal point for the category showcase panel (category-panel-mirrors.dim_600x900.png)\n- Tall editorial lifestyle image of a tufted rug in a warm minimalist living room for the category showcase panel (category-panel-rugs.dim_600x900.png)\n- Tall editorial lifestyle image of a tufted pillow case on a couch in a bright modern interior for the category showcase panel (category-panel-pillows.dim_600x900.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-a-bauhaus-inspired-design-system-with-a-strict-color-palette-of-red-e63329-blue-1b3f8b-orange-f47b20-and-white-ffffff-use-geometric-sans-serif-typography-bold-uppercase-headers-clean-body-text-strong-grid-layouts-asymmetric-compositions-and-minimal-ornamentation-consistent-with-bauhaus-principles-apply-this-system-consistently-across-all-pages",
+      "title": "Implement a Bauhaus-inspired design system with a strict color palette of red (#E63329), blue (#1B3F8B), orange (#F47B20), and white (#FFFFFF). Use geometric sans-serif typography (bold uppercase headers, clean body text), strong grid layouts, asymmetric compositions, and minimal ornamentation consistent with Bauhaus principles. Apply this system consistently across all pages.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-full-width-sticky-navigation-header-with-the-blockhaus-wordmark-logo-on-the-left-navigation-links-home-products-about-contact-centered-or-right-aligned-and-a-shopping-bag-cart-icon-on-the-far-right-navigation-should-be-minimal-and-clean-matching-the-structural-feel-of-yayaandco-com-s-header",
+      "title": "Build a full-width sticky navigation header with the 'BLOCKHAUS' wordmark logo on the left, navigation links (Home, Products, About, Contact) centered or right-aligned, and a shopping bag/cart icon on the far right. Navigation should be minimal and clean, matching the structural feel of yayaandco.com's header.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-large-full-width-hero-section-as-the-homepage-opening-with-an-editorial-style-layout-a-bold-headline-e-g-craft-form-space-a-short-brand-tagline-and-a-prominent-cta-button-shop-now-use-the-generated-hero-background-image-as-the-visual-backdrop-the-hero-should-feel-editorial-and-high-fashion-similar-to-yayaandco-com-s-homepage-opening",
+      "title": "Create a large full-width hero section as the homepage opening with an editorial-style layout: a bold headline (e.g., 'CRAFT. FORM. SPACE.'), a short brand tagline, and a prominent CTA button ('SHOP NOW'). Use the generated hero background image as the visual backdrop. The hero should feel editorial and high-fashion similar to yayaandco.com's homepage opening.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-best-seller-feature-section-immediately-below-the-hero-spotlighting-the-tufted-border-mirror-as-the-hero-product-display-a-large-product-image-on-one-side-and-product-name-short-description-price-placeholder-and-shop-now-cta-on-the-other-side-use-a-bold-color-block-background-red-or-blue-for-visual-impact",
+      "title": "Add a 'Best Seller' feature section immediately below the hero, spotlighting the Tufted Border Mirror as the hero product. Display a large product image on one side and product name, short description, price placeholder, and 'SHOP NOW' CTA on the other side. Use a bold color block background (red or blue) for visual impact.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-product-grid-section-titled-our-collection-displaying-all-four-product-categories-tufted-rugs-tufted-pillow-cases-tufted-mirror-rug-and-tufted-border-mirrors-each-product-card-should-show-the-product-image-product-name-a-short-tagline-and-a-price-placeholder-the-grid-should-be-2x2-on-desktop-and-stack-to-single-column-on-mobile-styled-similarly-to-yayaandco-com-s-product-grid",
+      "title": "Build a product grid section titled 'OUR COLLECTION' displaying all four product categories: Tufted Rugs, Tufted Pillow Cases, Tufted Mirror Rug, and Tufted Border Mirrors. Each product card should show the product image, product name, a short tagline, and a price placeholder. The grid should be 2x2 on desktop and stack to single column on mobile, styled similarly to yayaandco.com's product grid.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-brand-story-section-with-a-full-width-editorial-layout-a-large-background-image-or-color-block-on-one-side-and-brand-narrative-text-on-the-other-include-the-heading-the-blockhaus-story-and-copy-about-the-brand-s-bauhaus-inspired-philosophy-handcrafted-quality-and-commitment-to-form-and-function-mirror-the-editorial-mid-page-content-blocks-found-on-yayaandco-com",
+      "title": "Create a brand story section with a full-width editorial layout — a large background image or color block on one side and brand narrative text on the other. Include the heading 'THE BLOCKHAUS STORY' and copy about the brand's Bauhaus-inspired philosophy, handcrafted quality, and commitment to form and function. Mirror the editorial mid-page content blocks found on yayaandco.com.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-full-width-marquee-ticker-strip-like-yayaandco-com-with-scrolling-text-repeating-brand-phrases-such-as-tufted-by-hand-bauhaus-inspired-luxury-home-goods-blockhaus-style-it-with-a-colored-background-orange-or-red-and-white-bold-uppercase-text",
+      "title": "Add a full-width marquee/ticker strip (like yayaandco.com) with scrolling text repeating brand phrases such as 'TUFTED BY HAND', 'BAUHAUS INSPIRED', 'LUXURY HOME GOODS', 'BLOCKHAUS'. Style it with a colored background (orange or red) and white bold uppercase text.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-footer-with-the-blockhaus-wordmark-short-brand-description-navigation-links-home-products-about-contact-and-social-media-icon-placeholders-include-a-copyright-line-at-the-bottom-use-a-dark-background-near-black-or-deep-navy-with-white-text-to-contrast-with-the-rest-of-the-page",
+      "title": "Build a footer with the 'BLOCKHAUS' wordmark, short brand description, navigation links (Home, Products, About, Contact), and social media icon placeholders. Include a copyright line at the bottom. Use a dark background (near-black or deep navy) with white text to contrast with the rest of the page.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-individual-product-detail-pages-for-each-of-the-four-product-categories-tufted-rugs-tufted-pillow-cases-tufted-mirror-rug-tufted-border-mirrors-each-page-should-include-a-large-product-image-gallery-area-product-name-and-description-size-variant-selectors-placeholder-price-placeholder-and-an-add-to-cart-button-use-the-same-bauhaus-design-system",
+      "title": "Build individual product detail pages for each of the four product categories (Tufted Rugs, Tufted Pillow Cases, Tufted Mirror Rug, Tufted Border Mirrors). Each page should include: a large product image gallery area, product name and description, size/variant selectors (placeholder), price placeholder, and an 'ADD TO CART' button. Use the same Bauhaus design system.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-static-image-assets-from-frontend-public-assets-generated-throughout-the-site-hero-background-on-the-hero-section-product-images-on-product-cards-and-detail-pages-and-brand-story-image-on-the-brand-story-section",
+      "title": "Render all generated static image assets from frontend/public/assets/generated throughout the site: hero background on the hero section, product images on product cards and detail pages, and brand story image on the brand story section.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-expand-the-products-data-in-frontend-src-data-products-ts-to-include-multiple-individual-products-under-each-category-at-least-3-products-under-tufted-border-mirrors-at-least-3-under-tufted-rugs-and-at-least-3-under-tufted-pillow-cases-and-at-least-2-under-tufted-mirror-rug-each-product-should-have-a-unique-name-description-price-and-reference-a-distinct-product-image-update-the-productspage-and-any-category-filtering-display-logic-to-show-all-individual-products-per-category",
+      "title": "Expand the products data in frontend/src/data/products.ts to include multiple individual products under each category: at least 3 products under Tufted Border Mirrors, at least 3 under Tufted Rugs, and at least 3 under Tufted Pillow Cases (and at least 2 under Tufted Mirror Rug). Each product should have a unique name, description, price, and reference a distinct product image. Update the ProductsPage and any category filtering/display logic to show all individual products per category.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-full-width-editorial-category-showcase-section-on-the-homepage-home-tsx-placed-immediately-below-the-our-collection-product-grid-the-section-should-display-three-tall-side-by-side-panels-in-a-3-column-layout-each-panel-filling-with-a-large-lifestyle-product-background-image-a-bold-editorial-headline-overlaid-on-the-image-e-g-define-your-space-for-mirrors-ground-your-room-for-rugs-rest-your-head-for-pillows-and-a-minimal-outlined-cta-button-centered-in-the-panel-linking-to-the-relevant-category-style-the-layout-consistent-with-the-bauhaus-design-system-uppercase-bold-typography-clean-borders-and-the-brand-color-palette-this-is-directly-inspired-by-the-uploaded-reference-image-showing-three-tall-image-panels-with-headlines-and-category-buttons",
+      "title": "Add a full-width editorial category showcase section on the homepage (Home.tsx), placed immediately below the 'OUR COLLECTION' product grid. The section should display three tall side-by-side panels in a 3-column layout, each panel filling with a large lifestyle/product background image, a bold editorial headline overlaid on the image (e.g., 'DEFINE YOUR SPACE' for Mirrors, 'GROUND YOUR ROOM' for Rugs, 'REST YOUR HEAD' for Pillows), and a minimal outlined CTA button centered in the panel linking to the relevant category. Style the layout consistent with the Bauhaus design system: uppercase bold typography, clean borders, and the brand color palette. This is directly inspired by the uploaded reference image showing three tall image panels with headlines and category buttons.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Homepage layout inspired by yayaandco.com with hero section, product highlights, and brand story",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Product catalog pages for tufted rugs, tufted pillow cases, tufted mirror rug, and tufted border mirrors",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Bauhaus-inspired design system with red, blue, orange, and white color palette and geometric typography",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Featured/best-seller section highlighting tufted border mirrors",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Show more individual products under each category (mirrors, rugs, pillow cases) in the product listings",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add a section on the homepage below 'Our Collection' inspired by an uploaded reference image",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Blockhaus",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

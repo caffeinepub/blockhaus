@@ -1,0 +1,20 @@
+{
+  "frontend/src/index.css": "Global styles with Bauhaus-inspired design system — imports Bebas Neue and Space Grotesk fonts, defines OKLCH color tokens for red/blue/orange/white brand palette, and provides utility classes for marquee animation, Bauhaus button styles, and geometric accents.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Blockhaus brand colors (red, blue, orange, white, black), Bebas Neue display font and Space Grotesk body font, zero border-radius for sharp Bauhaus geometry, and custom box-shadow and animation tokens.",
+  "frontend/src/data/products.ts": "Expanded static product data with 4 Mirrors (Tufted Border, Arch, Oval, Square), 4 Rugs (Tufted, Stripe, Circle, Grid), 4 Pillow Cases (Tufted, Arch, Circle, Stripe), and 1 Mirror Rug — each with unique id, name, description, price, image, variants, and details.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with BLOCKHAUS wordmark logo (split red/black), desktop nav links, shopping bag icon, and responsive mobile hamburger menu.",
+  "frontend/src/components/HeroSection.tsx": "Full-viewport Bauhaus hero section with background image, dark overlay, bold headline, tagline, and dual CTA buttons — navigate to /products now uses `search: { category: undefined }` to satisfy the typed route.",
+  "frontend/src/components/MarqueeStrip.tsx": "Full-width continuously scrolling marquee ticker with brand phrases (\"TUFTED BY HAND\", \"BAUHAUS INSPIRED\", etc.) on configurable brand-color backgrounds with smooth CSS animation.",
+  "frontend/src/components/BestSellerSection.tsx": "Two-column best-seller feature section spotlighting the Tufted Border Mirror with product image on one side and product info/CTA on a deep blue background.",
+  "frontend/src/components/ProductGrid.tsx": "Homepage \"OUR COLLECTION\" preview grid showing 4 flagship products with hover overlays and View All buttons — all navigate calls to /products use `search: { category: undefined }`.",
+  "frontend/src/components/BrandStorySection.tsx": "Editorial brand story section with narrative text about Bauhaus philosophy on white background paired with the brand-story image, geometric dividers, and an \"Our Story\" CTA.",
+  "frontend/src/components/Footer.tsx": "Dark-background footer with BLOCKHAUS wordmark, brand description, social media icons (Instagram, Pinterest, Facebook), navigation and product links, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/pages/Home.tsx": "Homepage composing HeroSection, MarqueeStrip, BestSellerSection, ProductGrid, the new CategoryShowcaseSection, a second MarqueeStrip, and BrandStorySection in sequence.",
+  "frontend/src/pages/ProductsPage.tsx": "Products listing page with category filter tabs, URL search param filtering, 3-column grid, and correct border logic — the \"All\" tab uses `search: { category: undefined }`.",
+  "frontend/src/pages/ProductDetail.tsx": "Individual product detail page with image, breadcrumb, size/colorway selectors, quantity control, and Add to Cart — all navigate calls to /products use `search: { category: undefined }`.",
+  "frontend/src/pages/AboutPage.tsx": "About page with dark hero banner, three-column \"Craft/Form/Space\" philosophy section, full-width brand story image with overlaid quote, and marquee strips.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with dark header, contact info sidebar, and a borderless-style form with name/email/subject/message fields and success state.",
+  "frontend/src/App.tsx": "Main app with TanStack Router — adds validateSearch to the products route so the category query param is typed and accessible via useSearch.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file noting that no backend queries are needed since all product data is static.",
+  "frontend/src/components/CategoryShowcaseSection.tsx": "Three-panel editorial category showcase with full-bleed images, bold uppercase headlines, and outlined CTA buttons — uses navigate with `search: { category: panel.category }` for typed routing."
+}

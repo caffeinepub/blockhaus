@@ -1,0 +1,77 @@
+{
+  "kind": "build_request",
+  "title": "Expand product listings per category and add editorial category showcase section on homepage",
+  "projectName": "Blockhaus",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Expand the products data in frontend/src/data/products.ts to include multiple individual products under each category: at least 3 products under Tufted Border Mirrors, at least 3 under Tufted Rugs, and at least 3 under Tufted Pillow Cases (and at least 2 under Tufted Mirror Rug). Each product should have a unique name, description, price, and reference a distinct product image. Update the ProductsPage and any category filtering/display logic to show all individual products per category.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "can u show more products under each mirror , rug and pillow cases"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 3 distinct products appear under Tufted Border Mirrors on the products listing page",
+        "At least 3 distinct products appear under Tufted Rugs on the products listing page",
+        "At least 3 distinct products appear under Tufted Pillow Cases on the products listing page",
+        "Each product card shows a unique name, image, and price",
+        "All new products link to their own product detail pages"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Add a full-width editorial category showcase section on the homepage (Home.tsx), placed immediately below the 'OUR COLLECTION' product grid. The section should display three tall side-by-side panels in a 3-column layout, each panel filling with a large lifestyle/product background image, a bold editorial headline overlaid on the image (e.g., 'DEFINE YOUR SPACE' for Mirrors, 'GROUND YOUR ROOM' for Rugs, 'REST YOUR HEAD' for Pillows), and a minimal outlined CTA button centered in the panel linking to the relevant category. Style the layout consistent with the Bauhaus design system: uppercase bold typography, clean borders, and the brand color palette. This is directly inspired by the uploaded reference image showing three tall image panels with headlines and category buttons.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "can u put something similiar to what is in the picture uploaded in home page under our collection area"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A three-panel category showcase section renders on the homepage below the 'OUR COLLECTION' product grid",
+        "Each panel has a full-bleed background image, a bold uppercase editorial headline, and an outlined CTA button with the category name",
+        "Panels for Mirrors, Rugs, and Pillow Cases are all represented",
+        "CTA buttons navigate to the products page filtered to the relevant category",
+        "Layout is 3 columns on desktop and stacks to single column on mobile",
+        "Typography and colors follow the Bauhaus design system (uppercase, brand palette)"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/",
+    "All product data must remain static in frontend/src/data/products.ts — no backend changes required",
+    "Maintain the existing Bauhaus design system (colors, typography, grid) throughout all new UI"
+  ],
+  "nonGoals": [
+    "Adding a real shopping cart or checkout functionality",
+    "Backend persistence of product data",
+    "Adding a new 'Poufs' product category (not part of the Blockhaus catalog)",
+    "Changing the existing hero, best seller, brand story, or marquee sections"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Lifestyle photo of a tufted geometric border mirror hanging on a white wall in a modern interior (mirror-product-2.dim_800x1000.png)",
+      "Lifestyle photo of a circular tufted mirror with colorful Bauhaus pattern in a styled room (mirror-product-3.dim_800x1000.png)",
+      "Studio shot of a tufted abstract-pattern border mirror with bold red and blue tufting (mirror-product-4.dim_800x1000.png)",
+      "Flat-lay of a large tufted rug with bold geometric chevron pattern in red, white, and black (rug-product-2.dim_800x1000.png)",
+      "Styled room shot of a tufted rug with abstract Bauhaus-inspired shapes in orange and blue (rug-product-3.dim_800x1000.png)",
+      "Studio flat-lay of a tufted rug with concentric rectangle pattern in deep navy and cream (rug-product-4.dim_800x1000.png)",
+      "Styled couch with a tufted pillow case featuring bold abstract swirl pattern in red and orange (pillow-product-2.dim_800x1000.png)",
+      "Studio shot of a tufted pillow case with geometric grid pattern in blue and white (pillow-product-3.dim_800x1000.png)",
+      "Lifestyle shot of a tufted pillow case with color-block Bauhaus stripes in orange, red, and black on a linen sofa (pillow-product-4.dim_800x1000.png)",
+      "Tall editorial lifestyle image of a styled room featuring a tufted mirror as the focal point for the category showcase panel (category-panel-mirrors.dim_600x900.png)",
+      "Tall editorial lifestyle image of a tufted rug in a warm minimalist living room for the category showcase panel (category-panel-rugs.dim_600x900.png)",
+      "Tall editorial lifestyle image of a tufted pillow case on a couch in a bright modern interior for the category showcase panel (category-panel-pillows.dim_600x900.png)"
+    ],
+    "edits": []
+  }
+}

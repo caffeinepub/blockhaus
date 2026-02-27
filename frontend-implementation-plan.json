@@ -1,0 +1,64 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Expand product listings per category and add editorial category showcase section on homepage",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Expand products data to include multiple individual products under each category (at least 3 products under Tufted Border Mirrors, Tufted Rugs, and Tufted Pillow Cases) with unique names, descriptions, prices, and distinct product images",
+      "acceptanceCriteria": [
+        "At least 3 distinct products appear under Tufted Border Mirrors on the products listing page",
+        "At least 3 distinct products appear under Tufted Rugs on the products listing page",
+        "At least 3 distinct products appear under Tufted Pillow Cases on the products listing page",
+        "Each product card shows a unique name, image, and price",
+        "All new products link to their own product detail pages"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/data/products.ts",
+          "operation": "modify",
+          "description": "Expand the products array to include at least 3 individual products under the Tufted Border Mirrors category, at least 3 under Tufted Rugs, and at least 3 under Tufted Pillow Cases. Each new product must have a unique id, name, description, price, category, and image path. Wire the generated images: frontend/public/assets/generated/mirror-product-2.dim_800x1000.png, frontend/public/assets/generated/mirror-product-3.dim_800x1000.png, frontend/public/assets/generated/mirror-product-4.dim_800x1000.png for mirrors; frontend/public/assets/generated/rug-product-2.dim_800x1000.png, frontend/public/assets/generated/rug-product-3.dim_800x1000.png, frontend/public/assets/generated/rug-product-4.dim_800x1000.png for rugs; frontend/public/assets/generated/pillow-product-2.dim_800x1000.png, frontend/public/assets/generated/pillow-product-3.dim_800x1000.png, frontend/public/assets/generated/pillow-product-4.dim_800x1000.png for pillow cases. Maintain the existing Product interface structure with variants and best-seller flags as needed."
+        },
+        {
+          "path": "frontend/src/pages/ProductsPage.tsx",
+          "operation": "modify",
+          "description": "Verify the ProductsPage renders all expanded products from the updated products data array. Ensure the two-column product grid displays each new product with its image, name, price, and best-seller badge (if applicable), and that clicking any product card navigates to its detail page using the product id."
+        },
+        {
+          "path": "frontend/src/pages/ProductDetail.tsx",
+          "operation": "modify",
+          "description": "Verify the ProductDetail page correctly reads the productId route param and displays any of the new products from the expanded products data, including their images, names, descriptions, prices, and variant selectors."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Add a full-width editorial category showcase section on the homepage below the 'OUR COLLECTION' product grid, displaying three tall side-by-side panels (Mirrors, Rugs, Pillow Cases) with lifestyle images, bold editorial headlines, and minimal outlined CTA buttons",
+      "acceptanceCriteria": [
+        "A three-panel category showcase section renders on the homepage below the 'OUR COLLECTION' product grid",
+        "Each panel has a full-bleed background image, a bold uppercase editorial headline, and an outlined CTA button with the category name",
+        "Panels for Mirrors, Rugs, and Pillow Cases are all represented",
+        "CTA buttons navigate to the products page filtered to the relevant category",
+        "Layout is 3 columns on desktop and stacks to single column on mobile",
+        "Typography and colors follow the Bauhaus design system (uppercase, brand palette)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/CategoryShowcaseSection.tsx",
+          "operation": "create",
+          "description": "Create a new CategoryShowcaseSection component that renders a three-column layout of tall editorial panels for Mirrors, Rugs, and Pillow Cases. Each panel should have a full-bleed background image, a bold uppercase editorial headline overlaid on the image (e.g., 'DEFINE YOUR SPACE', 'GROUND YOUR ROOM', 'REST YOUR HEAD'), and a minimal outlined CTA button centered in the panel. Wire the generated images as background images: frontend/public/assets/generated/category-panel-mirrors.dim_600x900.png for Mirrors, frontend/public/assets/generated/category-panel-rugs.dim_600x900.png for Rugs, frontend/public/assets/generated/category-panel-pillows.dim_600x900.png for Pillow Cases. CTA buttons should use TanStack Router Link components to navigate to the products page with a category filter query param (e.g., ?category=Tufted Border Mirrors). Style with Tailwind CSS using the Bauhaus design system: uppercase Bebas Neue typography, brand color palette (--color-primary, --color-secondary, etc.), clean borders. Layout should be 3 columns (grid-cols-3) on desktop and single column (grid-cols-1) on mobile. Ensure the section is full-width and visually consistent with existing sections (HeroSection, BestSellerSection, BrandStorySection)."
+        },
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Import and render the new CategoryShowcaseSection component immediately below the ProductGrid component (which displays 'OUR COLLECTION') and before the second MarqueeStrip. Ensure the section is wired into the homepage layout and renders in the correct position."
+        },
+        {
+          "path": "frontend/src/pages/ProductsPage.tsx",
+          "operation": "modify",
+          "description": "Add category filtering logic to the ProductsPage that reads a category query param from the URL (e.g., ?category=Tufted Border Mirrors) and filters the displayed products to show only those matching the specified category. Ensure the page title or heading reflects the active category filter when present. If no category param is present, display all products as before."
+        }
+      ]
+    }
+  ]
+}
