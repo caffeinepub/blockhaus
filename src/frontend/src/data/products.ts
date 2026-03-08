@@ -27,7 +27,7 @@ export const products: Product[] = [
     tagline: "The statement piece your wall deserves.",
     description:
       "Our best-selling Tufted Border Mirror merges Bauhaus geometry with artisanal craft. Each mirror is hand-tufted with bold geometric patterns in our signature red, blue, and orange palette — a functional sculpture for the modern home.",
-    price: "From $480",
+    price: "Rs 5,499",
     image: "/assets/generated/product-tufted-border-mirror.dim_800x800.png",
     category: "Mirrors",
     isBestSeller: true,
@@ -58,7 +58,7 @@ export const products: Product[] = [
     tagline: "Soft curves, bold craft.",
     description:
       "The Arch Tufted Mirror brings an arched silhouette to our signature tufted border technique. A hand-crafted wool frame in warm earth tones and bold primaries makes this piece a focal point in any entryway or bedroom.",
-    price: "From $520",
+    price: "Rs 5,299",
     image: "/assets/generated/mirror-product-2.dim_800x1000.png",
     category: "Mirrors",
     variants: {
@@ -87,7 +87,7 @@ export const products: Product[] = [
     tagline: "Timeless form, handcrafted edge.",
     description:
       "Our Oval Tufted Mirror softens the Bauhaus grid with an elegant oval form. The hand-tufted wool border features concentric geometric bands that draw the eye inward — a meditative object as much as a mirror.",
-    price: "From $460",
+    price: "Rs 4,899",
     image: "/assets/generated/mirror-product-3.dim_800x1000.png",
     category: "Mirrors",
     variants: {
@@ -116,7 +116,7 @@ export const products: Product[] = [
     tagline: "Pure geometry. Pure craft.",
     description:
       "The Square Tufted Mirror is a love letter to Bauhaus form. A perfectly proportioned square mirror framed by a thick hand-tufted wool border with bold primary-colour blocking — rigorous, beautiful, and entirely handmade.",
-    price: "From $440",
+    price: "Rs 4,599",
     image: "/assets/generated/mirror-product-4.dim_800x1000.png",
     category: "Mirrors",
     variants: {
@@ -147,7 +147,7 @@ export const products: Product[] = [
     tagline: "Geometry underfoot. Art in every step.",
     description:
       "Inspired by the Bauhaus masters, our Tufted Rugs bring bold geometric patterns to your floors. Each rug is hand-tufted using premium wool, creating a tactile artwork that anchors any room with purpose and beauty.",
-    price: "From $320",
+    price: "Rs 4,799",
     image: "/assets/generated/product-tufted-rug.dim_800x800.png",
     category: "Rugs",
     variants: {
@@ -177,7 +177,7 @@ export const products: Product[] = [
     tagline: "Bold lines. Soft underfoot.",
     description:
       "The Stripe Tufted Rug distils the Bauhaus palette into clean horizontal bands of colour. Hand-tufted in premium wool with alternating pile heights, the stripes create a subtle tactile rhythm across the floor.",
-    price: "From $290",
+    price: "Rs 4,399",
     image: "/assets/generated/rug-product-2.dim_800x1000.png",
     category: "Rugs",
     variants: {
@@ -206,7 +206,7 @@ export const products: Product[] = [
     tagline: "A focal point for every room.",
     description:
       "Our Circle Tufted Rug centres the room with a bold concentric-circle motif hand-tufted in contrasting wool colours. Inspired by Bauhaus target compositions, it transforms any floor into a canvas.",
-    price: "From $350",
+    price: "Rs 5,199",
     image: "/assets/generated/rug-product-3.dim_800x1000.png",
     category: "Rugs",
     variants: {
@@ -235,7 +235,7 @@ export const products: Product[] = [
     tagline: "Structure beneath your feet.",
     description:
       "The Grid Tufted Rug is a floor-level homage to Bauhaus grid theory. A precise hand-tufted grid pattern in contrasting wool colours creates a graphic, architectural statement that works in any modern interior.",
-    price: "From $310",
+    price: "Rs 4,699",
     image: "/assets/generated/rug-product-4.dim_800x1000.png",
     category: "Rugs",
     variants: {
@@ -267,7 +267,7 @@ export const products: Product[] = [
     tagline: "Soft geometry. Bold comfort.",
     description:
       "Transform your living space with our Tufted Pillow Cases. Each piece features hand-tufted geometric patterns in our Bauhaus-inspired palette, bringing sculptural texture and bold color to your sofa or bed.",
-    price: "From $95",
+    price: "Rs 4,201",
     image: "/assets/generated/product-tufted-pillowcase.dim_800x800.png",
     category: "Pillows",
     variants: {
@@ -296,7 +296,7 @@ export const products: Product[] = [
     tagline: "Curved lines, handcrafted texture.",
     description:
       "The Arch Tufted Pillow Case features a bold arched motif hand-tufted in contrasting wool colours. Inspired by Bauhaus architectural forms, it adds sculptural depth and graphic energy to any sofa or bed.",
-    price: "From $105",
+    price: "Rs 4,499",
     image: "/assets/generated/pillow-product-2.dim_800x1000.png",
     category: "Pillows",
     variants: {
@@ -325,7 +325,7 @@ export const products: Product[] = [
     tagline: "Round forms, endless texture.",
     description:
       "Our Circle Tufted Pillow Case brings the Bauhaus target motif to your soft furnishings. Concentric circles hand-tufted in bold contrasting wools create a tactile, graphic cushion that commands attention.",
-    price: "From $110",
+    price: "Rs 4,799",
     image: "/assets/generated/pillow-product-3.dim_800x1000.png",
     category: "Pillows",
     variants: {
@@ -353,7 +353,7 @@ export const products: Product[] = [
     tagline: "Linear rhythm. Tactile luxury.",
     description:
       "The Stripe Tufted Pillow Case translates the Bauhaus love of line into a soft furnishing. Bold horizontal stripes hand-tufted in alternating pile heights create a cushion that is as satisfying to touch as it is to look at.",
-    price: "From $98",
+    price: "Rs 4,299",
     image: "/assets/generated/pillow-product-4.dim_800x1000.png",
     category: "Pillows",
     variants: {
@@ -384,7 +384,7 @@ export const products: Product[] = [
     tagline: "Where reflection meets craft.",
     description:
       "The Tufted Mirror Rug is our most innovative creation — a floor piece that frames a mirror within a hand-tufted textile border. A conversation piece that blurs the line between functional object and art installation.",
-    price: "From $650",
+    price: "Rs 5,596",
     image: "/assets/generated/product-tufted-mirror-rug.dim_800x800.png",
     category: "Mirror Rugs",
     variants: {
